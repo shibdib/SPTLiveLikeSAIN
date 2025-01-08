@@ -1,0 +1,11 @@
+{
+  "Name": "Live Like Experience",
+  "Description": "PMC's and Bosses should be scary.",
+  "Creator": "Shibdib",
+  "SAINVersion": "3.2.1",
+  "SAINPresetVersion": "3.2.1",
+  "DateCreated": "12/01/2024 00:00:00",
+  "BaseSAINDifficulty": "harderpmcs",
+  "IsCustom": true,
+  "CanEditName": true
+}
