@@ -419,7 +419,7 @@
       "Peripheral": {
         "Description": "Adds additional vision speed reduction to targets in a bot's peripheral vision.Scales with the angle from their look direction.",
         "Enabled": true,
-        "PERIPHERAL_VISION_START_ANGLE": 30.0,
+        "PERIPHERAL_VISION_START_ANGLE": 70.0,
         "PERIPHERAL_VISION_MAX_REDUCTION_COEF": 1.2
       },
       "Pose": {
@@ -431,12 +431,12 @@
       "ThirdParty": {
         "Description": "When an enemy is a certain angle away from their active enemies last known position, this will reduce their vision speed of that target up to the maximum set amount.",
         "Enabled": true,
-        "THIRDPARTY_VISION_START_ANGLE": 30.0,
+        "THIRDPARTY_VISION_START_ANGLE": 50.0,
         "THIRDPARTY_VISION_MAX_COEF": 1.5
       }
     },
     "VisionDistance": {
-      "MovementDistanceModifier": 2.0
+      "MovementDistanceModifier": 1.0
     },
     "Time": {
       "NightTimeVisionModifier": 0.5,
