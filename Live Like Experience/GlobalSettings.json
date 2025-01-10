@@ -256,7 +256,7 @@
     "BaseHearingDelayWithEnemy": 0.1,
     "BaseHearingDelayAtPeace": 0.15,
     "GunshotAudioMultiplier": 0.5,
-    "FootstepAudioMultiplier": 0.5,
+    "FootstepAudioMultiplier": 1.0,
     "SuppressorModifier": 0.25,
     "SubsonicModifier": 0.2,
     "HearingDistances": {
