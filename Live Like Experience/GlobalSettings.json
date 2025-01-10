@@ -175,7 +175,7 @@
   "Hearing": {
     "RAIN_SOUND_COEF_OUTSIDE": 0.5,
     "RAIN_SOUND_COEF_INSIDE": 0.75,
-    "MaxFootstepAudioDistance": 70.0,
+    "MaxFootstepAudioDistance": 50.0,
     "MaxFootstepAudioDistanceNoHeadphones": 50.0,
     "HEAR_DISPERSION_VALUES": {
       "Shot": 17.5,
@@ -256,7 +256,7 @@
     "BaseHearingDelayWithEnemy": 0.1,
     "BaseHearingDelayAtPeace": 0.15,
     "GunshotAudioMultiplier": 0.5,
-    "FootstepAudioMultiplier": 1.0,
+    "FootstepAudioMultiplier": 1.25,
     "SuppressorModifier": 0.25,
     "SubsonicModifier": 0.2,
     "HearingDistances": {
