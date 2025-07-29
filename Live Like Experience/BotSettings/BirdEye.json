@@ -10,8 +10,8 @@
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 2.0,
         "AggressionCoef": 1.0,
-        "PrecisionSpeedCoef": 1.0,
-        "AccuracySpeedCoef": 1.0
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 179.0,
@@ -25,6 +25,8 @@
       },
       "Aiming": {
         "AimCenterMass": true,
+        "AimForHead": false,
+        "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
@@ -81,6 +83,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
+        "STRAFE_SPEED": 0.5,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -112,8 +115,8 @@
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 2.0,
         "AggressionCoef": 1.0,
-        "PrecisionSpeedCoef": 1.0,
-        "AccuracySpeedCoef": 1.0
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 179.0,
@@ -127,6 +130,8 @@
       },
       "Aiming": {
         "AimCenterMass": true,
+        "AimForHead": false,
+        "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
@@ -183,6 +188,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
+        "STRAFE_SPEED": 0.5,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -214,8 +220,8 @@
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 2.0,
         "AggressionCoef": 1.0,
-        "PrecisionSpeedCoef": 1.0,
-        "AccuracySpeedCoef": 1.0
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 179.0,
@@ -229,6 +235,8 @@
       },
       "Aiming": {
         "AimCenterMass": true,
+        "AimForHead": false,
+        "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
@@ -285,6 +293,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
+        "STRAFE_SPEED": 0.5,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -316,8 +325,8 @@
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 2.0,
         "AggressionCoef": 1.0,
-        "PrecisionSpeedCoef": 1.0,
-        "AccuracySpeedCoef": 1.0
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 179.0,
@@ -331,6 +340,8 @@
       },
       "Aiming": {
         "AimCenterMass": true,
+        "AimForHead": false,
+        "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
@@ -387,6 +398,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
+        "STRAFE_SPEED": 0.5,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,

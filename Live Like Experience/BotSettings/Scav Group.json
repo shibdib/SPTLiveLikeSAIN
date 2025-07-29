@@ -7,11 +7,11 @@
       "Difficulty": {
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
-        "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
+        "ScatteringCoef": 0.8,
+        "HearingDistanceCoef": 0.8,
         "AggressionCoef": 1.2,
-        "PrecisionSpeedCoef": 1.2,
-        "AccuracySpeedCoef": 1.2
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 130.0,
@@ -24,7 +24,9 @@
         "CanGrenade": true
       },
       "Aiming": {
-        "AimCenterMass": false,
+        "AimCenterMass": true,
+        "AimForHead": false,
+        "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.5,
         "AngleAimTimeMultiplier": 2.0,
         "FasterCQBReactions": true,
@@ -81,6 +83,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
+        "STRAFE_SPEED": 0.5,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -109,11 +112,11 @@
       "Difficulty": {
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
-        "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
+        "ScatteringCoef": 0.9,
+        "HearingDistanceCoef": 0.9,
         "AggressionCoef": 1.2,
-        "PrecisionSpeedCoef": 1.15,
-        "AccuracySpeedCoef": 1.15
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 130.0,
@@ -126,7 +129,9 @@
         "CanGrenade": true
       },
       "Aiming": {
-        "AimCenterMass": false,
+        "AimCenterMass": true,
+        "AimForHead": false,
+        "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.4,
         "AngleAimTimeMultiplier": 1.8,
         "FasterCQBReactions": true,
@@ -183,6 +188,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
+        "STRAFE_SPEED": 0.5,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -211,11 +217,11 @@
       "Difficulty": {
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
-        "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
+        "ScatteringCoef": 0.95,
+        "HearingDistanceCoef": 0.95,
         "AggressionCoef": 1.2,
-        "PrecisionSpeedCoef": 1.1,
-        "AccuracySpeedCoef": 1.1
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 140.0,
@@ -228,7 +234,9 @@
         "CanGrenade": true
       },
       "Aiming": {
-        "AimCenterMass": false,
+        "AimCenterMass": true,
+        "AimForHead": false,
+        "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.25,
         "AngleAimTimeMultiplier": 1.5,
         "FasterCQBReactions": true,
@@ -285,6 +293,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
+        "STRAFE_SPEED": 0.5,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -316,8 +325,8 @@
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 1.0,
         "AggressionCoef": 1.2,
-        "PrecisionSpeedCoef": 1.05,
-        "AccuracySpeedCoef": 1.05
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 140.0,
@@ -330,7 +339,9 @@
         "CanGrenade": true
       },
       "Aiming": {
-        "AimCenterMass": false,
+        "AimCenterMass": true,
+        "AimForHead": false,
+        "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.1,
         "AngleAimTimeMultiplier": 1.3,
         "FasterCQBReactions": true,
@@ -387,6 +398,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
+        "STRAFE_SPEED": 0.5,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
