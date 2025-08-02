@@ -6,12 +6,12 @@
     "easy": {
       "Difficulty": {
         "VisibleDistCoef": 1.0,
-        "GainSightCoef": 1.0,
-        "ScatteringCoef": 0.8,
-        "HearingDistanceCoef": 0.8,
-        "AggressionCoef": 1.0,
-        "PRECISION_SPEED_COEF": 1.0,
-        "ACCURACY_SPEED_COEF": 1.0
+        "GainSightCoef": 0.7,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 0.3,
+        "AggressionCoef": 0.6,
+        "PRECISION_SPEED_COEF": 0.6,
+        "ACCURACY_SPEED_COEF": 0.6
       },
       "Core": {
         "VisibleAngle": 130.0,
@@ -20,8 +20,8 @@
         "AccuratySpeed": 0.3,
         "ScatteringPerMeter": 0.07,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
-        "CanGrenade": true
+        "HearingDistanceMulti": 0.3,
+        "CanGrenade": false
       },
       "Aiming": {
         "AimCenterMass": true,
@@ -30,7 +30,7 @@
         "DistanceAimTimeMultiplier": 1.5,
         "AngleAimTimeMultiplier": 2.0,
         "FasterCQBReactions": true,
-        "FasterCQBReactionsDistance": 15.0,
+        "FasterCQBReactionsDistance": 5.0,
         "FasterCQBReactionsMinimum": 0.5,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.65,
         "DIST_TO_SHOOT_NO_OFFSET": 3.0,
@@ -111,12 +111,12 @@
     "normal": {
       "Difficulty": {
         "VisibleDistCoef": 1.0,
-        "GainSightCoef": 1.0,
-        "ScatteringCoef": 0.9,
-        "HearingDistanceCoef": 0.9,
-        "AggressionCoef": 1.0,
-        "PRECISION_SPEED_COEF": 1.0,
-        "ACCURACY_SPEED_COEF": 1.0
+        "GainSightCoef": 0.8,
+        "ScatteringCoef": 0.95,
+        "HearingDistanceCoef": 0.3,
+        "AggressionCoef": 0.7,
+        "PRECISION_SPEED_COEF": 0.7,
+        "ACCURACY_SPEED_COEF": 0.7
       },
       "Core": {
         "VisibleAngle": 130.0,
@@ -125,8 +125,8 @@
         "AccuratySpeed": 0.26,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
-        "CanGrenade": true
+        "HearingDistanceMulti": 0.3,
+        "CanGrenade": false
       },
       "Aiming": {
         "AimCenterMass": true,
@@ -135,7 +135,7 @@
         "DistanceAimTimeMultiplier": 1.4,
         "AngleAimTimeMultiplier": 1.8,
         "FasterCQBReactions": true,
-        "FasterCQBReactionsDistance": 20.0,
+        "FasterCQBReactionsDistance": 8.0,
         "FasterCQBReactionsMinimum": 0.4,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.45,
         "DIST_TO_SHOOT_NO_OFFSET": 4.0,
@@ -216,12 +216,12 @@
     "hard": {
       "Difficulty": {
         "VisibleDistCoef": 1.0,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 0.9,
         "ScatteringCoef": 0.95,
-        "HearingDistanceCoef": 0.95,
-        "AggressionCoef": 1.0,
-        "PRECISION_SPEED_COEF": 1.0,
-        "ACCURACY_SPEED_COEF": 1.0
+        "HearingDistanceCoef": 0.35,
+        "AggressionCoef": 0.8,
+        "PRECISION_SPEED_COEF": 0.8,
+        "ACCURACY_SPEED_COEF": 0.8
       },
       "Core": {
         "VisibleAngle": 140.0,
@@ -230,7 +230,7 @@
         "AccuratySpeed": 0.24,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 0.35,
         "CanGrenade": true
       },
       "Aiming": {
@@ -240,7 +240,7 @@
         "DistanceAimTimeMultiplier": 1.25,
         "AngleAimTimeMultiplier": 1.5,
         "FasterCQBReactions": true,
-        "FasterCQBReactionsDistance": 25.0,
+        "FasterCQBReactionsDistance": 10.0,
         "FasterCQBReactionsMinimum": 0.35,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.4,
         "DIST_TO_SHOOT_NO_OFFSET": 5.0,
@@ -322,11 +322,11 @@
       "Difficulty": {
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
-        "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
-        "AggressionCoef": 1.0,
-        "PRECISION_SPEED_COEF": 1.0,
-        "ACCURACY_SPEED_COEF": 1.0
+        "ScatteringCoef": 0.9,
+        "HearingDistanceCoef": 0.4,
+        "AggressionCoef": 0.9,
+        "PRECISION_SPEED_COEF": 0.9,
+        "ACCURACY_SPEED_COEF": 0.9
       },
       "Core": {
         "VisibleAngle": 140.0,
@@ -335,7 +335,7 @@
         "AccuratySpeed": 0.22,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 0.4,
         "CanGrenade": true
       },
       "Aiming": {
@@ -345,7 +345,7 @@
         "DistanceAimTimeMultiplier": 1.1,
         "AngleAimTimeMultiplier": 1.3,
         "FasterCQBReactions": true,
-        "FasterCQBReactionsDistance": 30.0,
+        "FasterCQBReactionsDistance": 15.0,
         "FasterCQBReactionsMinimum": 0.3,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.4,
         "DIST_TO_SHOOT_NO_OFFSET": 6.0,

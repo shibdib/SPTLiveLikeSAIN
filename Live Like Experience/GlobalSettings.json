@@ -1,12 +1,12 @@
 {
   "Difficulty": {
-    "VisibleDistCoef": 1.5,
+    "VisibleDistCoef": 1.75,
     "GainSightCoef": 1.5,
-    "ScatteringCoef": 0.5,
+    "ScatteringCoef": 0.8,
     "HearingDistanceCoef": 1.0,
-    "AggressionCoef": 1.5,
-    "PRECISION_SPEED_COEF": 1.5,
-    "ACCURACY_SPEED_COEF": 1.5
+    "AggressionCoef": 1.1,
+    "PRECISION_SPEED_COEF": 1.3,
+    "ACCURACY_SPEED_COEF": 1.3
   },
   "General": {
     "BotsUseGrenades": true,
@@ -272,18 +272,18 @@
         "RandomizationMax": 1.25
       },
       "SuppressedShot": {
-        "AtPeace": 0.3,
+        "AtPeace": 0.5,
         "ActiveEnemy": 0.1,
-        "OtherEnemy_Known": 0.25,
+        "OtherEnemy_Known": 0.35,
         "OtherEnemy_Unknown": 0.65,
         "RandomizationMin": 0.75,
         "RandomizationMax": 1.25
       },
       "BulletImpact": {
-        "AtPeace": 0.25,
+        "AtPeace": 0.15,
         "ActiveEnemy": 0.1,
         "OtherEnemy_Known": 0.2,
-        "OtherEnemy_Unknown": 0.6,
+        "OtherEnemy_Unknown": 0.4,
         "RandomizationMin": 0.75,
         "RandomizationMax": 1.25
       }

@@ -8,7 +8,7 @@
         "VisibleDistCoef": 1.25,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
+        "HearingDistanceCoef": 0.85,
         "AggressionCoef": 1.2,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
@@ -20,7 +20,7 @@
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 0.85,
         "CanGrenade": true
       },
       "Aiming": {
@@ -83,7 +83,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
-        "STRAFE_SPEED": 0.5,
+        "STRAFE_SPEED": 0.6,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -113,7 +113,7 @@
         "VisibleDistCoef": 1.35,
         "GainSightCoef": 0.8,
         "ScatteringCoef": 0.8,
-        "HearingDistanceCoef": 1.15,
+        "HearingDistanceCoef": 0.9,
         "AggressionCoef": 1.4,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
@@ -125,7 +125,7 @@
         "AccuratySpeed": 0.15,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 0.9,
         "CanGrenade": true
       },
       "Aiming": {
@@ -188,7 +188,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
-        "STRAFE_SPEED": 0.5,
+        "STRAFE_SPEED": 0.7,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -218,7 +218,7 @@
         "VisibleDistCoef": 1.45,
         "GainSightCoef": 0.7,
         "ScatteringCoef": 0.7,
-        "HearingDistanceCoef": 1.25,
+        "HearingDistanceCoef": 0.95,
         "AggressionCoef": 1.55,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
@@ -230,7 +230,7 @@
         "AccuratySpeed": 0.12,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 0.95,
         "CanGrenade": true
       },
       "Aiming": {
@@ -293,7 +293,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
-        "STRAFE_SPEED": 0.5,
+        "STRAFE_SPEED": 0.8,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
@@ -323,7 +323,7 @@
         "VisibleDistCoef": 1.55,
         "GainSightCoef": 0.6,
         "ScatteringCoef": 0.6,
-        "HearingDistanceCoef": 1.45,
+        "HearingDistanceCoef": 1.0,
         "AggressionCoef": 1.75,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
@@ -398,7 +398,7 @@
         "MinExtractPercentage": 5.0
       },
       "Move": {
-        "STRAFE_SPEED": 0.5,
+        "STRAFE_SPEED": 0.9,
         "LEAN_TOGGLE": true,
         "LEAN_INCOVER_TOGGLE": true,
         "JUMP_TOGGLE": true,
