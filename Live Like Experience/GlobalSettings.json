@@ -661,34 +661,34 @@
     "STEER_LASTSEEN_TO_LASTKNOWN_DISTANCE": 5.5,
     "SMOOTHING_BY_STATE": {
       "RandomLook": {
-        "SmoothingValue": 0.04,
+        "SmoothingValue": 0.5,
         "MaxTurnSpeed": 120.0,
-        "SmoothingMode": "SmoothDamp"
+        "SmoothingMode": "SmoothDampAngle"
       },
       "Peace": {
-        "SmoothingValue": 0.05,
-        "MaxTurnSpeed": 240.0,
-        "SmoothingMode": "SmoothDamp"
+        "SmoothingValue": 0.4,
+        "MaxTurnSpeed": 140.0,
+        "SmoothingMode": "SmoothDampAngle"
       },
       "Combat": {
-        "SmoothingValue": 0.4,
-        "MaxTurnSpeed": 300.0,
-        "SmoothingMode": "SmoothDamp"
+        "SmoothingValue": 0.2,
+        "MaxTurnSpeed": 200.0,
+        "SmoothingMode": "SmoothDampAngle"
       },
       "CombatSprint": {
-        "SmoothingValue": 0.5,
-        "MaxTurnSpeed": 300.0,
-        "SmoothingMode": "SmoothDamp"
+        "SmoothingValue": 0.3,
+        "MaxTurnSpeed": 190.0,
+        "SmoothingMode": "SmoothDampAngle"
       },
       "CombatVisibleEnemy": {
-        "SmoothingValue": 0.6,
-        "MaxTurnSpeed": 310.0,
-        "SmoothingMode": "SmoothDamp"
+        "SmoothingValue": 0.1,
+        "MaxTurnSpeed": 220.0,
+        "SmoothingMode": "SmoothDampAngle"
       },
       "Aiming": {
-        "SmoothingValue": 0.8,
-        "MaxTurnSpeed": 320.0,
-        "SmoothingMode": "SmoothDamp"
+        "SmoothingValue": 0.2,
+        "MaxTurnSpeed": 180.0,
+        "SmoothingMode": "SmoothDampAngle"
       }
     },
     "ConvergenceBoost": 1.1,
