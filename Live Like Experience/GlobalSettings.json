@@ -207,7 +207,7 @@
       "BulletImpact": 12.5,
       "Land": 12.5
     },
-    "HEAR_DISPERSION_BULLET_FELT_MOD": 3.5,
+    "HEAR_DISPERSION_BULLET_FELT_MOD": 5.0,
     "HEAR_DISPERSION_MIN": 0.75,
     "HEAR_DISPERSION_MIN_DISTANCE_THRESH": 5.0,
     "HEAR_DISPERSION_MAX_DISPERSION": 50.0,
@@ -230,8 +230,8 @@
     "HEAR_MODIFIER_HEAVYBREATH": 0.65,
     "HEAR_MODIFIER_MIN_CLAMP": 0.01,
     "HEAR_MODIFIER_MAX_CLAMP": 5.0,
-    "HEAR_MODIFIER_MAX_AFFECT_DIST": 3.0,
-    "HEAR_CHANCE_MIN_DIST": 0.25,
+    "HEAR_MODIFIER_MAX_AFFECT_DIST": 10.0,
+    "HEAR_CHANCE_MIN_DIST": 0.6,
     "HEAR_CHANCE_MIN_DIST_HEADPHONES": 1.0,
     "HEAR_CHANCE_MIDRANGE_COEF": 0.66,
     "HEAR_CHANCE_MIDRANGE_MINCHANCE_HEADPHONES": 3.0,
@@ -661,33 +661,33 @@
     "STEER_LASTSEEN_TO_LASTKNOWN_DISTANCE": 5.5,
     "SMOOTHING_BY_STATE": {
       "RandomLook": {
-        "SmoothingValue": 0.5,
-        "MaxTurnSpeed": 120.0,
+        "SmoothingValue": 0.04,
+        "MaxTurnSpeed": 90.0,
         "SmoothingMode": "SmoothDampAngle"
       },
       "Peace": {
-        "SmoothingValue": 0.4,
-        "MaxTurnSpeed": 140.0,
+        "SmoothingValue": 0.05,
+        "MaxTurnSpeed": 90.0,
         "SmoothingMode": "SmoothDampAngle"
       },
       "Combat": {
-        "SmoothingValue": 0.2,
-        "MaxTurnSpeed": 200.0,
+        "SmoothingValue": 0.07,
+        "MaxTurnSpeed": 120.0,
         "SmoothingMode": "SmoothDampAngle"
       },
       "CombatSprint": {
-        "SmoothingValue": 0.3,
-        "MaxTurnSpeed": 190.0,
+        "SmoothingValue": 0.075,
+        "MaxTurnSpeed": 120.0,
         "SmoothingMode": "SmoothDampAngle"
       },
       "CombatVisibleEnemy": {
-        "SmoothingValue": 0.1,
-        "MaxTurnSpeed": 220.0,
+        "SmoothingValue": 0.09,
+        "MaxTurnSpeed": 140.0,
         "SmoothingMode": "SmoothDampAngle"
       },
       "Aiming": {
-        "SmoothingValue": 0.2,
-        "MaxTurnSpeed": 180.0,
+        "SmoothingValue": 0.1,
+        "MaxTurnSpeed": 360.0,
         "SmoothingMode": "SmoothDampAngle"
       }
     },
