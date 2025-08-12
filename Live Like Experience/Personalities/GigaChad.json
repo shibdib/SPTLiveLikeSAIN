@@ -20,7 +20,7 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.4,
+      "AggressionMultiplier": 1.6,
       "KickOpenAllDoors": true,
       "DOGFIGHT_PATH_DIST_START": 10.0,
       "DOGFIGHT_TIMESINCESEEN_START": 1.0,
@@ -29,7 +29,7 @@
       "HoldGroundBaseTime": 1.2,
       "HoldGroundMinRandom": 0.65,
       "HoldGroundMaxRandom": 1.5,
-      "SuppressionResistance": 0.0,
+      "SuppressionResistance": 0.2,
       "TARGET_SUPPRESS_TOGGLE": true,
       "TARGET_SUPPRESS_DIST": 3.0,
       "TARGET_SUPPRESS_DIST_MAX": 12.0,
@@ -89,7 +89,7 @@
     "GainSightCoef": 1.0,
     "ScatteringCoef": 1.0,
     "HearingDistanceCoef": 1.0,
-    "AggressionCoef": 1.0,
+    "AggressionCoef": 1.6,
     "PRECISION_SPEED_COEF": 1.0,
     "ACCURACY_SPEED_COEF": 1.0
   }

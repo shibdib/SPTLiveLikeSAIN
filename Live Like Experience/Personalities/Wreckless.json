@@ -110,7 +110,7 @@
       "ConstantTaunt": true,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 4.0,
-      "TauntChance": 55.0,
+      "TauntChance": 85.0,
       "TauntMaxDistance": 75.0,
       "CanFakeDeathRare": true,
       "FakeDeathChance": 6.0,
@@ -122,7 +122,7 @@
     "GainSightCoef": 1.0,
     "ScatteringCoef": 1.0,
     "HearingDistanceCoef": 1.0,
-    "AggressionCoef": 1.0,
+    "AggressionCoef": 1.75,
     "PRECISION_SPEED_COEF": 1.0,
     "ACCURACY_SPEED_COEF": 1.0
   }
