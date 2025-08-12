@@ -3,7 +3,7 @@
   "Description": "This personality tends to sprint at their enemies, and will very frequently scream at everyone - Usually both at the same time. More Aggressive than Gigachads.",
   "Assignment": {
     "Enabled": true,
-    "CanBeRandomlyAssigned": false,
+    "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 1.0,
     "MinLevel": 0.0,
     "MaxLevel": 100.0,
