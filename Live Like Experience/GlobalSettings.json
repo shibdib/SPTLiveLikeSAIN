@@ -332,8 +332,8 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 0.5,
-        "AggressionCoef": 1.3,
+        "HearingDistanceCoef": 0.4,
+        "AggressionCoef": 1.1,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
@@ -341,8 +341,8 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 0.5,
-        "AggressionCoef": 1.2,
+        "HearingDistanceCoef": 0.4,
+        "AggressionCoef": 1.3,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
@@ -369,33 +369,33 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 1.0,
-        "AggressionCoef": 1.2,
+        "AggressionCoef": 1.1,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Streets": {
-        "VisibleDistCoef": 1.2,
+        "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.2,
+        "HearingDistanceCoef": 1.0,
         "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Lighthouse": {
-        "VisibleDistCoef": 1.75,
+        "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.15,
-        "AggressionCoef": 1.1,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Shoreline": {
-        "VisibleDistCoef": 2.0,
+        "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.1,
+        "HearingDistanceCoef": 1.0,
         "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
@@ -403,17 +403,17 @@
       "Labs": {
         "VisibleDistCoef": 0.55,
         "GainSightCoef": 0.85,
-        "ScatteringCoef": 0.9,
-        "HearingDistanceCoef": 0.5,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 0.4,
         "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Woods": {
-        "VisibleDistCoef": 2.0,
+        "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.15,
+        "HearingDistanceCoef": 1.0,
         "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
@@ -422,7 +422,7 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 0.5,
+        "HearingDistanceCoef": 0.6,
         "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
@@ -458,18 +458,18 @@
       "Pose": {
         "Description": "Scales vision speed based on the pose of their enemy. Only applies to Non-AI targets.",
         "Enabled": true,
-        "PRONE_VISION_SPEED_COEF": 1.4,
-        "DUCK_VISION_SPEED_COEF": 1.25
+        "PRONE_VISION_SPEED_COEF": 1.3,
+        "DUCK_VISION_SPEED_COEF": 1.15
       },
       "ThirdParty": {
         "Description": "When an enemy is a certain angle away from their active enemies last known position, this will reduce their vision speed of that target up to the maximum set amount.",
         "Enabled": true,
-        "THIRDPARTY_VISION_START_ANGLE": 50.0,
+        "THIRDPARTY_VISION_START_ANGLE": 55.0,
         "THIRDPARTY_VISION_MAX_COEF": 1.3
       }
     },
     "VisionDistance": {
-      "MovementDistanceModifier": 1.25
+      "MovementDistanceModifier": 1.1
     },
     "Time": {
       "NightTimeVisionModifier": 0.5,

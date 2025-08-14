@@ -16,7 +16,7 @@
       "Core": {
         "VisibleAngle": 180.0,
         "VisibleDistance": 137.0,
-        "GainSightCoef": 0.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -118,7 +118,7 @@
       "Core": {
         "VisibleAngle": 180.0,
         "VisibleDistance": 137.0,
-        "GainSightCoef": 0.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -220,7 +220,7 @@
       "Core": {
         "VisibleAngle": 180.0,
         "VisibleDistance": 137.0,
-        "GainSightCoef": 0.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -322,7 +322,7 @@
       "Core": {
         "VisibleAngle": 180.0,
         "VisibleDistance": 137.0,
-        "GainSightCoef": 0.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,

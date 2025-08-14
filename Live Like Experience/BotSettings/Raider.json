@@ -5,7 +5,7 @@
   "Settings": {
     "easy": {
       "Difficulty": {
-        "VisibleDistCoef": 0.5,
+        "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 0.4,
@@ -15,8 +15,8 @@
       },
       "Core": {
         "VisibleAngle": 130.0,
-        "VisibleDistance": 200.0,
-        "GainSightCoef": 0.2,
+        "VisibleDistance": 130.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -107,7 +107,7 @@
     },
     "normal": {
       "Difficulty": {
-        "VisibleDistCoef": 0.5,
+        "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 0.4,
@@ -117,8 +117,8 @@
       },
       "Core": {
         "VisibleAngle": 140.0,
-        "VisibleDistance": 225.0,
-        "GainSightCoef": 0.2,
+        "VisibleDistance": 130.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -209,18 +209,18 @@
     },
     "hard": {
       "Difficulty": {
-        "VisibleDistCoef": 0.5,
+        "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 0.4,
-        "AggressionCoef": 0.6,
+        "AggressionCoef": 0.8,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 0.9
       },
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 250.0,
-        "GainSightCoef": 0.2,
+        "VisibleDistance": 130.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -311,18 +311,18 @@
     },
     "impossible": {
       "Difficulty": {
-        "VisibleDistCoef": 0.5,
+        "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 0.4,
-        "AggressionCoef": 0.6,
+        "AggressionCoef": 0.8,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 0.85
       },
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 275.0,
-        "GainSightCoef": 0.2,
+        "VisibleDistance": 130.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,

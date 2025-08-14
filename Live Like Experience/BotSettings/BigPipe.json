@@ -8,15 +8,15 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
+        "HearingDistanceCoef": 0.4,
         "AggressionCoef": 1.1,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
-        "GainSightCoef": 0.2,
+        "VisibleDistance": 130.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -68,7 +68,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.1,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.99,
         "SuppressionResistance": 0.8,
         "TalkFrequency": 1.0,
@@ -110,15 +110,15 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
+        "HearingDistanceCoef": 0.4,
         "AggressionCoef": 1.1,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
-        "GainSightCoef": 0.2,
+        "VisibleDistance": 130.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -170,7 +170,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.1,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.99,
         "SuppressionResistance": 0.8,
         "TalkFrequency": 1.0,
@@ -212,15 +212,15 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
+        "HearingDistanceCoef": 0.4,
         "AggressionCoef": 1.1,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
-        "GainSightCoef": 0.2,
+        "VisibleDistance": 130.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -272,7 +272,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.1,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.99,
         "SuppressionResistance": 0.8,
         "TalkFrequency": 1.0,
@@ -314,15 +314,15 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
-        "HearingDistanceCoef": 1.0,
+        "HearingDistanceCoef": 0.4,
         "AggressionCoef": 1.1,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
-        "GainSightCoef": 0.2,
+        "VisibleDistance": 130.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -374,7 +374,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.1,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.99,
         "SuppressionResistance": 0.8,
         "TalkFrequency": 1.0,
