@@ -441,7 +441,7 @@
       "Movement": {
         "Description": "Scales vision speed based on the movement speed of their enemy. Faster movement = faster vision speed.",
         "Enabled": true,
-        "MOVEMENT_VISION_MULTIPLIER": 0.5
+        "MOVEMENT_VISION_MULTIPLIER": 0.9
       },
       "PartsVisibility": {
         "Description": "Scales vision speed based on the number of body parts that are within line of sight to their enemy. Only applies to Non-AI targets.",
@@ -453,7 +453,7 @@
         "Description": "Adds additional vision speed reduction to targets in a bot's peripheral vision.Scales with the angle from their look direction.",
         "Enabled": true,
         "PERIPHERAL_VISION_START_ANGLE": 60.0,
-        "PERIPHERAL_VISION_MAX_REDUCTION_COEF": 1.1
+        "PERIPHERAL_VISION_MAX_REDUCTION_COEF": 1.3
       },
       "Pose": {
         "Description": "Scales vision speed based on the pose of their enemy. Only applies to Non-AI targets.",
@@ -469,12 +469,12 @@
       }
     },
     "VisionDistance": {
-      "MovementDistanceModifier": 1.1
+      "MovementDistanceModifier": 1.3
     },
     "Time": {
-      "NightTimeVisionModifier": 0.5,
-      "NightTimeVisionModifierSnow": 0.55,
-      "TIME_GAIN_SIGHT_SCALE_MAX": 2.0,
+      "NightTimeVisionModifier": 1.5,
+      "NightTimeVisionModifierSnow": 1.55,
+      "TIME_GAIN_SIGHT_SCALE_MAX": 3.0,
       "VISION_WEATHER_MIN_COEF": 0.5,
       "VISION_WEATHER_MIN_DIST_METERS": 50.0,
       "VISION_WEATHER_FOG_MAXCOEF": 0.4,
