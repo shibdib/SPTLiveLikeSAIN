@@ -53,7 +53,7 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.0,
+      "AggressionMultiplier": 1.1,
       "KickOpenAllDoors": false,
       "DOGFIGHT_PATH_DIST_START": 10.0,
       "DOGFIGHT_TIMESINCESEEN_START": 1.0,
