@@ -207,11 +207,11 @@
       "BulletImpact": 12.5,
       "Land": 12.5
     },
-    "HEAR_DISPERSION_BULLET_FELT_MOD": 5.0,
+    "HEAR_DISPERSION_BULLET_FELT_MOD": 8.0,
     "HEAR_DISPERSION_MIN": 1.25,
-    "HEAR_DISPERSION_MIN_DISTANCE_THRESH": 5.0,
-    "HEAR_DISPERSION_MAX_DISPERSION": 50.0,
-    "HEAR_DISPERSION_ANGLE_MULTI_MAX": 1.5,
+    "HEAR_DISPERSION_MIN_DISTANCE_THRESH": 1.0,
+    "HEAR_DISPERSION_MAX_DISPERSION": 100.0,
+    "HEAR_DISPERSION_ANGLE_MULTI_MAX": 2.0,
     "HEAR_DISPERSION_ANGLE_MULTI_MIN": 0.5,
     "BUNKER_REDUCTION_COEF": 0.05,
     "BUNKER_ELEV_DIFF_COEF": 0.01,
@@ -472,8 +472,8 @@
       "MovementDistanceModifier": 1.3
     },
     "Time": {
-      "NightTimeVisionModifier": 1.5,
-      "NightTimeVisionModifierSnow": 1.55,
+      "NightTimeVisionModifier": 0.4,
+      "NightTimeVisionModifierSnow": 0.35,
       "TIME_GAIN_SIGHT_SCALE_MAX": 3.0,
       "VISION_WEATHER_MIN_COEF": 0.5,
       "VISION_WEATHER_MIN_DIST_METERS": 50.0,
