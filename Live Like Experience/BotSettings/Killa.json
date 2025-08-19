@@ -9,7 +9,7 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 3.0,
-        "AggressionCoef": 6.0,
+        "AggressionCoef": 2.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
@@ -68,7 +68,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.25,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "SuppressionResistance": 0.0,
         "TalkFrequency": 1.0,
@@ -111,7 +111,7 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 3.0,
-        "AggressionCoef": 6.0,
+        "AggressionCoef": 2.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
@@ -170,7 +170,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.25,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "SuppressionResistance": 0.0,
         "TalkFrequency": 1.0,
@@ -213,7 +213,7 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 3.0,
-        "AggressionCoef": 6.0,
+        "AggressionCoef": 2.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
@@ -272,7 +272,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.25,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "SuppressionResistance": 0.0,
         "TalkFrequency": 1.0,
@@ -315,7 +315,7 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 3.0,
-        "AggressionCoef": 6.0,
+        "AggressionCoef": 2.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
@@ -374,7 +374,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.25,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "SuppressionResistance": 0.0,
         "TalkFrequency": 1.0,
