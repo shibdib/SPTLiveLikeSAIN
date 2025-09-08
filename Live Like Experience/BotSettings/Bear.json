@@ -25,7 +25,7 @@
       },
       "Aiming": {
         "AimCenterMass": false,
-        "AimForHead": true,
+        "AimForHead": false,
         "AimForHeadChance": 5.0,
         "DistanceAimTimeMultiplier": 1.3,
         "AngleAimTimeMultiplier": 1.3,
@@ -127,8 +127,8 @@
       },
       "Aiming": {
         "AimCenterMass": false,
-        "AimForHead": true,
-        "AimForHeadChance": 7.0,
+        "AimForHead": false,
+        "AimForHeadChance": 5.0,
         "DistanceAimTimeMultiplier": 1.2,
         "AngleAimTimeMultiplier": 1.2,
         "FasterCQBReactions": true,
@@ -212,7 +212,7 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.25,
         "ScatteringCoef": 0.7,
-        "HearingDistanceCoef": 1.05,
+        "HearingDistanceCoef": 1.0,
         "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.2,
         "ACCURACY_SPEED_COEF": 0.8
@@ -220,7 +220,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 130.0,
-        "GainSightCoef": 1.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.12,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -229,8 +229,8 @@
       },
       "Aiming": {
         "AimCenterMass": false,
-        "AimForHead": true,
-        "AimForHeadChance": 10.0,
+        "AimForHead": false,
+        "AimForHeadChance": 5.0,
         "DistanceAimTimeMultiplier": 1.1,
         "AngleAimTimeMultiplier": 1.1,
         "FasterCQBReactions": true,
@@ -314,7 +314,7 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 1.4,
         "ScatteringCoef": 0.6,
-        "HearingDistanceCoef": 1.1,
+        "HearingDistanceCoef": 1.0,
         "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.25,
         "ACCURACY_SPEED_COEF": 0.75
@@ -322,7 +322,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 135.0,
-        "GainSightCoef": 1.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.1,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -332,8 +332,8 @@
       "Aiming": {
         "AimCenterMass": false,
         "AimForHead": true,
-        "AimForHeadChance": 12.0,
-        "DistanceAimTimeMultiplier": 1.0,
+        "AimForHeadChance": 5.0,
+        "DistanceAimTimeMultiplier": 1.1,
         "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 40.0,
