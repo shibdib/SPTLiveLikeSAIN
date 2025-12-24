@@ -1,6 +1,6 @@
 {
-  "Name": "Kolontay Security",
-  "WildSpawnType": "followerKolontaySecurity",
+  "Name": "Kollantay Assault",
+  "WildSpawnType": "followerKolontayAssault",
   "DifficultyModifier": 0.85,
   "Settings": {
     "easy": {

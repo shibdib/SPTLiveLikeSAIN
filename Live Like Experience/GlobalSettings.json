@@ -80,7 +80,8 @@
     },
     "Jokes": {
       "RandomCheaters": false,
-      "RandomCheaterChance": 1.0
+      "RandomCheaterChance": 1.0,
+      "EnableKhorovodPMCs": true
     },
     "Debug": {
       "Logs": {
@@ -541,7 +542,8 @@
       "bossPartisan": "Rat",
       "bossBully": "Coward",
       "bossSanitar": "Coward",
-      "bossBoar": "Coward"
+      "bossBoar": "Coward",
+      "gifter": "GigaChad"
     },
     "GlobalAggression": 1.0,
     "SneakyBots": true,
@@ -646,7 +648,7 @@
     "BOT_NOMOVE_TRYVAULT_TIME": 0.5,
     "BOT_NOMOVE_TRYJUMP_TIME": 1.0,
     "BOT_NOMOVE_RECALC_TIME": 3.0,
-    "BotSprintCornerReachDist": 0.15,
+    "BotSprintCornerReachDist": 0.3,
     "BotWalkCornerReachDist": 0.1,
     "BotSprintCurrentCornerAngleMax": 25.0
   },
@@ -709,6 +711,7 @@
     "BOT_RECOIL_BASELINE": 100.0,
     "BOT_RECOIL_BASELINE_REALISM": 125.0,
     "AmmoCaliberShootability": {
+      "Caliber20x1mm": 0.225,
       "Caliber9x18PM": 0.225,
       "Caliber9x19PARA": 0.275,
       "Caliber46x30": 0.325,
@@ -734,11 +737,14 @@
       "Caliber30x29": 1.0,
       "Caliber40x46": 1.0,
       "Caliber40mmRU": 1.0,
+      "Caliber127x99": 0.5,
       "Caliber127x108": 0.5,
+      "Caliber725": 1.0,
       "Caliber68x51": 0.6,
       "Default": 0.5
     },
     "AmmoCaliberFullAutoMaxDistances": {
+      "Caliber20x1mm": 80.0,
       "Caliber9x18PM": 80.0,
       "Caliber9x19PARA": 80.0,
       "Caliber46x30": 70.0,
@@ -764,7 +770,9 @@
       "Caliber30x29": 30.0,
       "Caliber40x46": 30.0,
       "Caliber40mmRU": 30.0,
+      "Caliber127x99": 30.0,
       "Caliber127x108": 30.0,
+      "Caliber725": 30.0,
       "Caliber68x51": 50.0,
       "Default": 55.0
     },

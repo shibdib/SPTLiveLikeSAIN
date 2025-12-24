@@ -1,7 +1,7 @@
 {
-  "Name": "Kolontay",
-  "WildSpawnType": "bossKolontay",
-  "DifficultyModifier": 1.0,
+  "Name": "Kollantay Security",
+  "WildSpawnType": "followerKolontaySecurity",
+  "DifficultyModifier": 0.85,
   "Settings": {
     "easy": {
       "Difficulty": {
@@ -16,7 +16,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 142.0,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 1.1,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -118,7 +118,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 142.0,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 1.1,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -220,7 +220,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 142.0,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 1.1,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -322,7 +322,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 142.0,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 1.1,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
