@@ -2,7 +2,7 @@
   "Name": "Coward",
   "Description": "A player who is more passive and afraid than usual. Will never seek out enemies and will hide in a closet until the scary thing goes away.",
   "Assignment": {
-    "Enabled": true,
+    "Enabled": false,
     "CanBeRandomlyAssigned": false,
     "RandomlyAssignedChance": 5.0,
     "MinLevel": 0.0,

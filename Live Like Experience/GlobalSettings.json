@@ -11,7 +11,7 @@
   "General": {
     "BotsUseGrenades": true,
     "BotVsBotGrenade": true,
-    "BOT_INTERTIA_TOGGLE": true,
+    "BOT_INERTIA_TOGGLE": true,
     "VanillaBots": {
       "VanillaScavs": false,
       "VanillaBosses": false,
@@ -77,13 +77,6 @@
       "TurnLightOffNoEnemyRAIDERROGUE": true,
       "DebugFlash": false,
       "SillyMode": false
-    },
-    "LootingBots": {
-      "ExtractFromLoot": true,
-      "MinLootValPMC": 1000000.0,
-      "MinLootValSCAV": 500000.0,
-      "MinLootValOther": 750000.0,
-      "MinLootValException": 2500000.0
     },
     "Jokes": {
       "RandomCheaters": false,
@@ -159,13 +152,14 @@
     "OpticCloseMulti": 0.8,
     "OpticCloseDistance": 75.0,
     "RedDotFarMulti": 0.85,
-    "RedDotFarDistance": 75.0,
+    "RedDotFarDistance": 100.0,
     "RedDotCloseMulti": 1.15,
-    "RedDotCloseDistance": 40.0,
+    "RedDotCloseDistance": 50.0,
     "IronSightFarMulti": 0.7,
     "IronSightScaleDistanceStart": 40.0,
     "IronSightScaleDistanceEnd": 75.0,
-    "CenterMassVal": 0.3125,
+    "CenterMassVal": 0.3,
+    "MinAimTime": 0.0,
     "FasterCQBReactionsGlobal": true,
     "AimDownSightsAimTimeMultiplier": 0.95
   },
@@ -314,14 +308,16 @@
       "Caliber20g": 185.0,
       "Caliber12g": 185.0,
       "Caliber23x75": 210.0,
+      "Caliber20x1mm": 50.0,
       "Caliber26x75": 50.0,
       "Caliber30x29": 50.0,
       "Caliber40x46": 50.0,
       "Caliber40mmRU": 50.0,
+      "Caliber127x99": 275.0,
       "Caliber127x108": 300.0,
+      "Caliber725": 400.0,
       "Caliber68x51": 200.0,
       "Default": 125.0,
-      "Caliber20x1": 125.0,
       "Caliber127x33": 125.0,
       "Caliber9x18PMM": 125.0
     }
@@ -426,6 +422,15 @@
         "AggressionCoef": 1.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
+      },
+      "Labyrinth": {
+        "VisibleDistCoef": 0.55,
+        "GainSightCoef": 0.85,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 0.1,
+        "AggressionCoef": 1.0,
+        "PRECISION_SPEED_COEF": 1.0,
+        "ACCURACY_SPEED_COEF": 1.0
       }
     }
   },
@@ -508,13 +513,6 @@
       "NotLookingAngle": 45.0,
       "NotLookingVisionSpeedModifier": 1.1,
       "NotLookingAccuracyAmount": 0.33
-    },
-    "NoBushESP": {
-      "NoBushESPToggle": true,
-      "NoBushESPEnhanced": false,
-      "NoBushESPFrequency": 0.1,
-      "NoBushESPEnhancedRatio": 0.75,
-      "NoBushESPDebugMode": false
     }
   },
   "Mind": {
@@ -531,7 +529,9 @@
     },
     "PERS_BOSSES": {
       "bossKilla": "Wreckless",
+      "bossKillaAgro": "Wreckless",
       "bossTagilla": "Wreckless",
+      "bossTagillaAgro": "Wreckless",
       "bossKolontay": "Wreckless",
       "bossKnight": "GigaChad",
       "followerBigPipe": "GigaChad",
@@ -548,7 +548,7 @@
     "OnlySneakyPersonalitiesSneaky": true,
     "MaximumDistanceToBeSneaky": 80.0,
     "SUPP_TOGGLE": true,
-    "SUPP_DISTANCE_SCALE_START": 3.0,
+    "SUPP_DISTANCE_SCALE_START": 4.0,
     "SUPP_DISTANCE_SCALE_END": 10.0,
     "SUPP_DISTANCE_AMP_DIST": 0.5,
     "SUPP_DISTANCE_AMP_AMOUNT": 1.5,
@@ -556,47 +556,48 @@
     "SUPPRESSION_STATES": {
       "Light": {
         "Threshold": 1.0,
-        "PrecisionSpeedCoef": 1.15,
+        "PrecisionSpeedCoef": 0.8,
         "AccuracySpeedCoef": 1.2,
         "VisibleDistCoef": 0.85,
-        "GainSightCoef": 1.2,
+        "GainSightCoef": 0.9,
         "ScatteringCoef": 1.35,
         "HearingDistCoef": 0.8
       },
       "Medium": {
         "Threshold": 6.0,
-        "PrecisionSpeedCoef": 1.5,
+        "PrecisionSpeedCoef": 0.75,
         "AccuracySpeedCoef": 1.5,
         "VisibleDistCoef": 0.6,
-        "GainSightCoef": 1.5,
+        "GainSightCoef": 0.75,
         "ScatteringCoef": 1.75,
         "HearingDistCoef": 0.6
       },
       "Heavy": {
         "Threshold": 15.0,
-        "PrecisionSpeedCoef": 2.0,
+        "PrecisionSpeedCoef": 0.5,
         "AccuracySpeedCoef": 2.0,
         "VisibleDistCoef": 0.5,
-        "GainSightCoef": 1.65,
+        "GainSightCoef": 0.65,
         "ScatteringCoef": 2.5,
         "HearingDistCoef": 0.4
       },
       "Extreme": {
         "Threshold": 25.0,
-        "PrecisionSpeedCoef": 3.0,
+        "PrecisionSpeedCoef": 0.25,
         "AccuracySpeedCoef": 3.0,
         "VisibleDistCoef": 0.33,
-        "GainSightCoef": 2.0,
+        "GainSightCoef": 0.5,
         "ScatteringCoef": 3.0,
         "HearingDistCoef": 0.25
       }
     },
     "SUPP_AMOUNT_MULTI": 1.0,
     "SUPP_STRENGTH_MULTI": 1.0,
-    "SUP_DECAY_AMOUNT": 0.4,
+    "SUP_DECAY_AMOUNT": 0.25,
     "SUP_DECAY_FREQ": 0.25,
     "SUP_CHECK_FREQ": 0.5,
     "SUPP_AMOUNTS": {
+      "Caliber20x1mm": 0.25,
       "Caliber9x18PM": 1.0,
       "Caliber9x19PARA": 1.1,
       "Caliber46x30": 1.2,
@@ -623,7 +624,9 @@
       "Caliber40x46": 3.0,
       "Caliber40mmRU": 3.0,
       "Caliber86x70": 5.0,
+      "Caliber127x99": 5.0,
       "Caliber127x108": 5.0,
+      "Caliber725": 10.0,
       "Default": 2.0
     },
     "SUPP_MAX_NUM": 30.0
@@ -706,26 +709,26 @@
     "BOT_RECOIL_BASELINE": 100.0,
     "BOT_RECOIL_BASELINE_REALISM": 125.0,
     "AmmoCaliberShootability": {
-      "Caliber9x18PM": 0.22,
-      "Caliber9x19PARA": 0.28,
-      "Caliber46x30": 0.32,
-      "Caliber9x21": 0.32,
+      "Caliber9x18PM": 0.225,
+      "Caliber9x19PARA": 0.275,
+      "Caliber46x30": 0.325,
+      "Caliber9x21": 0.325,
       "Caliber57x28": 0.35,
-      "Caliber762x25TT": 0.42,
-      "Caliber1143x23ACP": 0.42,
+      "Caliber762x25TT": 0.425,
+      "Caliber1143x23ACP": 0.425,
       "Caliber9x33R": 0.65,
-      "Caliber545x39": 0.52,
-      "Caliber556x45NATO": 0.52,
+      "Caliber545x39": 0.525,
+      "Caliber556x45NATO": 0.525,
       "Caliber9x39": 0.6,
-      "Caliber762x35": 0.58,
-      "Caliber762x39": 0.68,
-      "Caliber366TKM": 0.68,
-      "Caliber762x51": 0.72,
-      "Caliber127x55": 0.78,
+      "Caliber762x35": 0.575,
+      "Caliber762x39": 0.675,
+      "Caliber366TKM": 0.675,
+      "Caliber762x51": 0.725,
+      "Caliber127x55": 0.775,
       "Caliber762x54R": 0.85,
       "Caliber86x70": 1.0,
       "Caliber20g": 0.7,
-      "Caliber12g": 0.72,
+      "Caliber12g": 0.725,
       "Caliber23x75": 0.85,
       "Caliber26x75": 1.0,
       "Caliber30x29": 1.0,

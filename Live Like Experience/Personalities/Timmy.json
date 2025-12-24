@@ -2,7 +2,7 @@
   "Name": "Timmy",
   "Description": "A New Player, terrified of everything.",
   "Assignment": {
-    "Enabled": true,
+    "Enabled": false,
     "CanBeRandomlyAssigned": false,
     "RandomlyAssignedChance": 0.0,
     "MinLevel": 0.0,

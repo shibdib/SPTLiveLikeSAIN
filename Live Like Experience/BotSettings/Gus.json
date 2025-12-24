@@ -1,7 +1,7 @@
 {
-  "Name": "Kaban Guard Close 2",
+  "Name": "Gus",
   "WildSpawnType": "followerBoarClose2",
-  "DifficultyModifier": 0.85,
+  "DifficultyModifier": 0.95,
   "Settings": {
     "easy": {
       "Difficulty": {
@@ -77,7 +77,7 @@
         "SquadTalk": true,
         "SquadMemberTalkFreq": 3.0,
         "SquadLeadTalkFreq": 3.0,
-        "EnableExtracts": true,
+        "EnableExtracts": false,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0
       },
@@ -179,7 +179,7 @@
         "SquadTalk": true,
         "SquadMemberTalkFreq": 3.0,
         "SquadLeadTalkFreq": 3.0,
-        "EnableExtracts": true,
+        "EnableExtracts": false,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0
       },
@@ -281,7 +281,7 @@
         "SquadTalk": true,
         "SquadMemberTalkFreq": 3.0,
         "SquadLeadTalkFreq": 3.0,
-        "EnableExtracts": true,
+        "EnableExtracts": false,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0
       },
@@ -383,7 +383,7 @@
         "SquadTalk": true,
         "SquadMemberTalkFreq": 3.0,
         "SquadLeadTalkFreq": 3.0,
-        "EnableExtracts": true,
+        "EnableExtracts": false,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0
       },

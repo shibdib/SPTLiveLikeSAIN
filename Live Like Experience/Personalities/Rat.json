@@ -4,7 +4,7 @@
   "Assignment": {
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
-    "RandomlyAssignedChance": 10.0,
+    "RandomlyAssignedChance": 5.0,
     "MinLevel": 0.0,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 0.0,
