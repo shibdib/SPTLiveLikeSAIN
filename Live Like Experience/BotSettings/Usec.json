@@ -28,7 +28,7 @@
         "AimForHead": false,
         "AimForHeadChance": 5.0,
         "DistanceAimTimeMultiplier": 1.3,
-        "AngleAimTimeMultiplier": 1.3,
+        "AngleAimTimeMultiplier": 0.8,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 25.0,
         "FasterCQBReactionsMinimum": 0.3,
@@ -78,8 +78,8 @@
         "SquadMemberTalkFreq": 3.0,
         "SquadLeadTalkFreq": 3.0,
         "EnableExtracts": true,
-        "MaxExtractPercentage": 90.0,
-        "MinExtractPercentage": 45.0
+        "MaxExtractPercentage": 95.0,
+        "MinExtractPercentage": 65.0
       },
       "Move": {
         "STRAFE_SPEED": 0.6,
@@ -130,7 +130,7 @@
         "AimForHead": false,
         "AimForHeadChance": 5.0,
         "DistanceAimTimeMultiplier": 1.2,
-        "AngleAimTimeMultiplier": 1.2,
+        "AngleAimTimeMultiplier": 0.7,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.25,
@@ -180,8 +180,8 @@
         "SquadMemberTalkFreq": 4.0,
         "SquadLeadTalkFreq": 5.0,
         "EnableExtracts": true,
-        "MaxExtractPercentage": 90.0,
-        "MinExtractPercentage": 45.0
+        "MaxExtractPercentage": 95.0,
+        "MinExtractPercentage": 65.0
       },
       "Move": {
         "STRAFE_SPEED": 0.7,
@@ -232,7 +232,7 @@
         "AimForHead": false,
         "AimForHeadChance": 5.0,
         "DistanceAimTimeMultiplier": 1.1,
-        "AngleAimTimeMultiplier": 1.1,
+        "AngleAimTimeMultiplier": 0.6,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 33.0,
         "FasterCQBReactionsMinimum": 0.2,
@@ -282,8 +282,8 @@
         "SquadMemberTalkFreq": 5.0,
         "SquadLeadTalkFreq": 7.0,
         "EnableExtracts": true,
-        "MaxExtractPercentage": 90.0,
-        "MinExtractPercentage": 45.0
+        "MaxExtractPercentage": 95.0,
+        "MinExtractPercentage": 65.0
       },
       "Move": {
         "STRAFE_SPEED": 0.8,
@@ -334,7 +334,7 @@
         "AimForHead": true,
         "AimForHeadChance": 5.0,
         "DistanceAimTimeMultiplier": 1.1,
-        "AngleAimTimeMultiplier": 1.0,
+        "AngleAimTimeMultiplier": 0.5,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 40.0,
         "FasterCQBReactionsMinimum": 0.15,
@@ -384,8 +384,8 @@
         "SquadMemberTalkFreq": 6.0,
         "SquadLeadTalkFreq": 9.0,
         "EnableExtracts": true,
-        "MaxExtractPercentage": 90.0,
-        "MinExtractPercentage": 45.0
+        "MaxExtractPercentage": 95.0,
+        "MinExtractPercentage": 65.0
       },
       "Move": {
         "STRAFE_SPEED": 0.9,

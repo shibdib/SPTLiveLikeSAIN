@@ -1,7 +1,7 @@
 {
-  "Name": "Gluhar Guard Security",
-  "WildSpawnType": "followerGluharSecurity",
-  "DifficultyModifier": 0.85,
+  "Name": "Black Division Lead",
+  "WildSpawnType": "blackDivLead",
+  "DifficultyModifier": 1.0,
   "Settings": {
     "easy": {
       "Difficulty": {
@@ -16,7 +16,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 142.0,
-        "GainSightCoef": 1.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -28,7 +28,7 @@
         "AimForHead": false,
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
-        "AngleAimTimeMultiplier": 0.7,
+        "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -102,7 +102,7 @@
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1
       }
     },
     "normal": {
@@ -118,7 +118,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 142.0,
-        "GainSightCoef": 1.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -130,7 +130,7 @@
         "AimForHead": false,
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
-        "AngleAimTimeMultiplier": 0.7,
+        "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -204,7 +204,7 @@
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1
       }
     },
     "hard": {
@@ -220,7 +220,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 142.0,
-        "GainSightCoef": 1.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -232,7 +232,7 @@
         "AimForHead": false,
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
-        "AngleAimTimeMultiplier": 0.7,
+        "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -306,7 +306,7 @@
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1
       }
     },
     "impossible": {
@@ -322,7 +322,7 @@
       "Core": {
         "VisibleAngle": 160.0,
         "VisibleDistance": 142.0,
-        "GainSightCoef": 1.1,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -334,7 +334,7 @@
         "AimForHead": false,
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
-        "AngleAimTimeMultiplier": 0.7,
+        "AngleAimTimeMultiplier": 1.0,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -408,7 +408,7 @@
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1
       }
     }
   }

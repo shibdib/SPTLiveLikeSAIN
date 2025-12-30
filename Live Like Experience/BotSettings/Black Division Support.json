@@ -1,6 +1,6 @@
 {
-  "Name": "Gluhar Guard Security",
-  "WildSpawnType": "followerGluharSecurity",
+  "Name": "Black Division Support",
+  "WildSpawnType": "blackDivSupport",
   "DifficultyModifier": 0.85,
   "Settings": {
     "easy": {

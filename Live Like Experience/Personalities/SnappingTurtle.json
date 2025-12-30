@@ -2,8 +2,8 @@
   "Name": "SnappingTurtle",
   "Description": "A player who finds the balance between rat and chad, yin and yang. Will rat you out but can spring out at any moment.",
   "Assignment": {
-    "Enabled": true,
-    "CanBeRandomlyAssigned": true,
+    "Enabled": false,
+    "CanBeRandomlyAssigned": false,
     "RandomlyAssignedChance": 5.0,
     "MinLevel": 15.0,
     "MaxLevel": 100.0,

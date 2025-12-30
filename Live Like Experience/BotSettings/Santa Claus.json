@@ -1,7 +1,7 @@
 {
-  "Name": "Gluhar Guard Security",
-  "WildSpawnType": "followerGluharSecurity",
-  "DifficultyModifier": 0.85,
+  "Name": "Santa Claus",
+  "WildSpawnType": "gifter",
+  "DifficultyModifier": 1.0,
   "Settings": {
     "easy": {
       "Difficulty": {
@@ -9,16 +9,16 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 0.8,
-        "AggressionCoef": 1.0,
+        "AggressionCoef": 2.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 142.0,
-        "GainSightCoef": 1.1,
+        "VisibleAngle": 180.0,
+        "VisibleDistance": 137.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
-        "ScatteringPerMeter": 0.045,
+        "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
         "HearingDistanceMulti": 1.0,
         "CanGrenade": true
@@ -28,7 +28,7 @@
         "AimForHead": false,
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
-        "AngleAimTimeMultiplier": 0.7,
+        "AngleAimTimeMultiplier": 0.5,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -54,7 +54,7 @@
         "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.01
+        "GrenadePrecision": 0.05
       },
       "Hearing": {},
       "Lay": {},
@@ -94,15 +94,15 @@
       },
       "Patrol": {},
       "Scattering": {
-        "HandDamageScatteringMinMax": 1.5,
-        "HandDamageAccuracySpeed": 1.5
+        "HandDamageScatteringMinMax": 1.0,
+        "HandDamageAccuracySpeed": 1.0
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1
       }
     },
     "normal": {
@@ -111,16 +111,16 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 0.8,
-        "AggressionCoef": 1.0,
+        "AggressionCoef": 2.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 142.0,
-        "GainSightCoef": 1.1,
+        "VisibleAngle": 180.0,
+        "VisibleDistance": 137.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
-        "ScatteringPerMeter": 0.045,
+        "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
         "HearingDistanceMulti": 1.0,
         "CanGrenade": true
@@ -130,7 +130,7 @@
         "AimForHead": false,
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
-        "AngleAimTimeMultiplier": 0.7,
+        "AngleAimTimeMultiplier": 0.5,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -156,7 +156,7 @@
         "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.01
+        "GrenadePrecision": 0.05
       },
       "Hearing": {},
       "Lay": {},
@@ -196,15 +196,15 @@
       },
       "Patrol": {},
       "Scattering": {
-        "HandDamageScatteringMinMax": 1.5,
-        "HandDamageAccuracySpeed": 1.5
+        "HandDamageScatteringMinMax": 1.0,
+        "HandDamageAccuracySpeed": 1.0
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1
       }
     },
     "hard": {
@@ -213,16 +213,16 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 0.8,
-        "AggressionCoef": 1.0,
+        "AggressionCoef": 2.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 142.0,
-        "GainSightCoef": 1.1,
+        "VisibleAngle": 180.0,
+        "VisibleDistance": 137.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
-        "ScatteringPerMeter": 0.045,
+        "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
         "HearingDistanceMulti": 1.0,
         "CanGrenade": true
@@ -232,7 +232,7 @@
         "AimForHead": false,
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
-        "AngleAimTimeMultiplier": 0.7,
+        "AngleAimTimeMultiplier": 0.5,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -258,7 +258,7 @@
         "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.01
+        "GrenadePrecision": 0.05
       },
       "Hearing": {},
       "Lay": {},
@@ -298,15 +298,15 @@
       },
       "Patrol": {},
       "Scattering": {
-        "HandDamageScatteringMinMax": 1.5,
-        "HandDamageAccuracySpeed": 1.5
+        "HandDamageScatteringMinMax": 1.0,
+        "HandDamageAccuracySpeed": 1.0
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1
       }
     },
     "impossible": {
@@ -315,16 +315,16 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 0.8,
-        "AggressionCoef": 1.0,
+        "AggressionCoef": 2.0,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.0
       },
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 142.0,
-        "GainSightCoef": 1.1,
+        "VisibleAngle": 180.0,
+        "VisibleDistance": 137.0,
+        "GainSightCoef": 1.0,
         "AccuratySpeed": 0.2,
-        "ScatteringPerMeter": 0.045,
+        "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
         "HearingDistanceMulti": 1.0,
         "CanGrenade": true
@@ -334,7 +334,7 @@
         "AimForHead": false,
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
-        "AngleAimTimeMultiplier": 0.7,
+        "AngleAimTimeMultiplier": 0.5,
         "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.33,
@@ -360,7 +360,7 @@
         "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.01
+        "GrenadePrecision": 0.05
       },
       "Hearing": {},
       "Lay": {},
@@ -400,15 +400,15 @@
       },
       "Patrol": {},
       "Scattering": {
-        "HandDamageScatteringMinMax": 1.5,
-        "HandDamageAccuracySpeed": 1.5
+        "HandDamageScatteringMinMax": 1.0,
+        "HandDamageAccuracySpeed": 1.0
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
         "BurstMulti": 1.5,
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1
       }
     }
   }
